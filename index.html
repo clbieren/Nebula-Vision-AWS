@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula AI - Görüntü Analiz Motoru</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="glow-text">NEBULA <span class="accent">CORE</span></h1>
+            <p>AWS Rekognition Destekli Görüntü İşleme Modülü</p>
+        </header>
+
+        <main>
+            <div class="upload-zone" id="drop-zone">
+                <input type="file" id="file-input" accept="image/*" hidden>
+                <div class="upload-content">
+                    <span class="icon">📷</span>
+                    <h3>Fotoğrafı Buraya Sürükle</h3>
+                    <p>veya</p>
+                    <button class="btn-neon" onclick="document.getElementById('file-input').click()">Bilgisayardan Seç</button>
+                </div>
+            </div>
+
+            <div class="status-panel" id="status-panel" style="display: none;">
+                <div class="loader"></div>
+                <p id="status-text">Sisteme Yükleniyor...</p>
+            </div>
+
+            <div class="results-panel" id="results-panel" style="display: none;">
+                <h3>🧠 Yapay Zeka Analizi</h3>
+                <ul id="labels-list">
+                    </ul>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
