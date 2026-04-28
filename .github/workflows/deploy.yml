@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 
 env:
-  ECR_REPOSITORY: nebula-worker-repo # Senin ECR repo adın
+  ECR_REPOSITORY: nebula-worker # Senin ECR repo adın
   ECS_SERVICE: Nebula-Worker-Service # Senin ECS servis adın
   ECS_CLUSTER: Nebula-Cluster        # Senin ECS cluster adın
   ECS_TASK_DEFINITION: task-definition.json # Bunu birazdan halledeceğiz
