@@ -3,7 +3,7 @@
 ## 📊 Project Information
 
 - **Project Name**: `Nebula-UI`
-- **Generated On**: 2026-04-28 16:11:36 (Europe/Istanbul / GMT+03:00)
+- **Generated On**: 2026-04-28 16:13:05 (Europe/Istanbul / GMT+03:00)
 - **Total Files Processed**: 5
 - **Export Tool**: Easy Whole Project to Single Text File for LLMs v1.1.0
 - **Tool Author**: Jota / José Guilherme Pandolfi
@@ -24,7 +24,7 @@
 ├── 📄 index.html (1.55 KB)
 ├── 📄 README.md (5.64 KB)
 ├── 📄 style.css (2.06 KB)
-└── 📄 task-defination.json (2.74 KB)
+└── 📄 task-definition.json (2.74 KB)
 ```
 
 ## 📑 Table of Contents
@@ -35,7 +35,7 @@
 - [📄 index.html](#📄-index-html)
 - [📄 README.md](#📄-readme-md)
 - [📄 style.css](#📄-style-css)
-- [📄 task-defination.json](#📄-task-defination-json)
+- [📄 task-definition.json](#📄-task-definition-json)
 
 ---
 
@@ -632,16 +632,16 @@ header {
 
 ---
 
-### <a id="📄-task-defination-json"></a>📄 `task-defination.json`
+### <a id="📄-task-definition-json"></a>📄 `task-definition.json`
 
 **File Info:**
 - **Size**: 2.74 KB
 - **Extension**: `.json`
 - **Language**: `json`
-- **Location**: `task-defination.json`
+- **Location**: `task-definition.json`
 - **Relative Path**: `root`
 - **Created**: 2026-04-28 16:10:36 (Europe/Istanbul / GMT+03:00)
-- **Modified**: 2026-04-28 16:10:48 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-28 16:13:04 (Europe/Istanbul / GMT+03:00)
 - **MD5**: `c038ea3b9586bdc220f10ca00822b6a0`
 - **SHA256**: `4be601579128b60b89c490179832f3826b4fb35d6e6bb9493db3d4e8e007d711`
 - **Encoding**: ASCII
