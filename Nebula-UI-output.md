@@ -3,8 +3,8 @@
 ## 📊 Project Information
 
 - **Project Name**: `Nebula-UI`
-- **Generated On**: 2026-04-28 16:13:05 (Europe/Istanbul / GMT+03:00)
-- **Total Files Processed**: 5
+- **Generated On**: 2026-04-28 16:20:08 (Europe/Istanbul / GMT+03:00)
+- **Total Files Processed**: 8
 - **Export Tool**: Easy Whole Project to Single Text File for LLMs v1.1.0
 - **Tool Author**: Jota / José Guilherme Pandolfi
 
@@ -21,10 +21,13 @@
 
 ```
 ├── 📄 app.js (4.07 KB)
+├── 📄 D
+├── 📄 Dockerfile (443 B)
 ├── 📄 index.html (1.55 KB)
-├── 📄 README.md (5.64 KB)
+├── 📄 README.md (5.86 KB)
 ├── 📄 style.css (2.06 KB)
-└── 📄 task-definition.json (2.74 KB)
+├── 📄 task-definition.json (2.83 KB)
+└── 📄 worker.py (2.53 KB)
 ```
 
 ## 📑 Table of Contents
@@ -36,6 +39,7 @@
 - [📄 README.md](#📄-readme-md)
 - [📄 style.css](#📄-style-css)
 - [📄 task-definition.json](#📄-task-definition-json)
+- [📄 worker.py](#📄-worker-py)
 
 ---
 
@@ -43,21 +47,23 @@
 
 | Metric | Count |
 |--------|-------|
-| Total Files | 5 |
+| Total Files | 8 |
 | Total Directories | 0 |
-| Text Files | 5 |
-| Binary Files | 0 |
-| Total Size | 16.06 KB |
+| Text Files | 6 |
+| Binary Files | 2 |
+| Total Size | 19.33 KB |
 
 ### 📄 File Types Distribution
 
 | Extension | Count |
 |-----------|-------|
+| `no extension` | 2 |
 | `.js` | 1 |
 | `.html` | 1 |
 | `.md` | 1 |
 | `.css` | 1 |
 | `.json` | 1 |
+| `.py` | 1 |
 
 ## 💻 File Code Contents
 
@@ -270,15 +276,15 @@ function showRealResults(data) {
 ### <a id="📄-readme-md"></a>📄 `README.md`
 
 **File Info:**
-- **Size**: 5.64 KB
+- **Size**: 5.86 KB
 - **Extension**: `.md`
 - **Language**: `text`
 - **Location**: `README.md`
 - **Relative Path**: `root`
 - **Created**: 2026-04-28 15:56:36 (Europe/Istanbul / GMT+03:00)
-- **Modified**: 2026-04-28 15:57:02 (Europe/Istanbul / GMT+03:00)
-- **MD5**: `6dd7ce998e2c6b42991c727c4a851cac`
-- **SHA256**: `5362dd8cc8003ef8ff08400742700b2594d7b3ed52523c2e8a5fb4b185662832`
+- **Modified**: 2026-04-28 16:14:09 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `158b0e9fe4388e16edce3e05ac163571`
+- **SHA256**: `46c3a9e0232f5f3f8ebceae4c418780041c6826da7a402a7e90327ffa8d24087`
 - **Encoding**: UTF-8
 
 **File code content:**
@@ -403,7 +409,7 @@ export DYNAMODB_TABLE=your-table
 ------------------------------------------------------------
 
 # 1. Clone project
-git clone https://github.com/your-username/nebula-vision.git
+git clone https://github.com/clbieren/Nebula-Vision-AWS.git
 cd nebula-vision
 
 
@@ -428,7 +434,7 @@ Create:
 - S3 Bucket
 - SQS Queue
 - DynamoDB Table
-  Partition Key: image_id
+  Partition Key: ImageName
 - ECS Cluster (Fargate)
 - ECR Repository
 
@@ -467,14 +473,8 @@ const API_URL = "https://your-api-id.execute-api.region.amazonaws.com"
 📊 SAMPLE RESPONSE
 ------------------------------------------------------------
 
-{
-  "image_id": "12345",
-  "labels": [
-    { "name": "Car", "confidence": 98.2 },
-    { "name": "Road", "confidence": 95.1 }
-  ],
-  "status": "completed"
-}
+<img width="2443" height="1431" alt="Ekran görüntüsü 2026-04-28 190412" src="https://github.com/user-attachments/assets/6907225f-a6a0-4752-8859-73fa9ebd025a" />
+
 
 ------------------------------------------------------------
 🔐 IAM (MINIMUM)
@@ -499,6 +499,7 @@ const API_URL = "https://your-api-id.execute-api.region.amazonaws.com"
 ------------------------------------------------------------
 
 MIT
+
 ````
 
 ---
@@ -635,15 +636,15 @@ header {
 ### <a id="📄-task-definition-json"></a>📄 `task-definition.json`
 
 **File Info:**
-- **Size**: 2.74 KB
+- **Size**: 2.83 KB
 - **Extension**: `.json`
 - **Language**: `json`
 - **Location**: `task-definition.json`
 - **Relative Path**: `root`
 - **Created**: 2026-04-28 16:10:36 (Europe/Istanbul / GMT+03:00)
-- **Modified**: 2026-04-28 16:13:04 (Europe/Istanbul / GMT+03:00)
-- **MD5**: `c038ea3b9586bdc220f10ca00822b6a0`
-- **SHA256**: `4be601579128b60b89c490179832f3826b4fb35d6e6bb9493db3d4e8e007d711`
+- **Modified**: 2026-04-28 16:14:09 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `8abdb08ed8befad8e62852179be0ed88`
+- **SHA256**: `845b283c0a390ac695287312bd789bbe2aabd93907f58bdc1b64c822c7ca9236`
 - **Encoding**: ASCII
 
 **File code content:**
@@ -743,4 +744,107 @@ header {
 ```
 
 ---
+
+### <a id="📄-worker-py"></a>📄 `worker.py`
+
+**File Info:**
+- **Size**: 2.53 KB
+- **Extension**: `.py`
+- **Language**: `python`
+- **Location**: `worker.py`
+- **Relative Path**: `root`
+- **Created**: 2026-04-28 16:20:03 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-28 16:20:08 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `a982dfab6f8bd524e52eb1f7e88ed6a3`
+- **SHA256**: `f60139307b6d1ac941b1fe6003c21e87d4bef740ee23762033bda71ef49209cc`
+- **Encoding**: UTF-8
+
+**File code content:**
+
+```python
+import boto3
+import json
+import time
+
+# Servisleri tanımlıyoruz (DynamoDB eklendi)
+sqs = boto3.client('sqs', region_name='eu-central-1')
+s3 = boto3.client('s3')
+rekognition = boto3.client('rekognition', region_name='eu-central-1')
+dynamodb = boto3.resource('dynamodb', region_name='eu-central-1')
+
+# Tablomuzu koda bağlıyoruz
+table = dynamodb.Table('NebulaResults')
+
+QUEUE_URL = "https://sqs.eu-central-1.amazonaws.com/290061316029/nebula-image-queue"
+
+def process_message(message):
+    body = json.loads(message['Body'])
+    
+    for record in body.get('Records', []):
+        bucket_name = record['s3']['bucket']['name']
+        object_key = record['s3']['object']['key']
+        
+        print(f"\n--- Yeni İş Bulundu! Dosya: {object_key} ---")
+        
+        # Rekognition Analizi
+        response = rekognition.detect_labels(
+            Image={'S3Object': {'Bucket': bucket_name, 'Name': object_key}},
+            MaxLabels=5
+        )
+        
+        print("Analiz Sonuçları:")
+        detected_labels = []
+        for label in response['Labels']:
+            print(f"- {label['Name']}: %{label['Confidence']:.2f}")
+            # Veritabanı için etiketleri bir listeye topluyoruz
+            detected_labels.append({
+                'Label': label['Name'],
+                'Confidence': str(round(label['Confidence'], 2)) # DynamoDB ondalık sayıları string olarak daha rahat alır
+            })
+            
+        # DYNAMODB'YE KAYIT İŞLEMİ
+        try:
+            table.put_item(
+                Item={
+                    'ImageName': object_key,
+                    'Labels': detected_labels,
+                    'ProcessedTime': str(time.time())
+                }
+            )
+            print(">>> Sonuçlar başarıyla DynamoDB veritabanına kaydedildi! <<<")
+        except Exception as e:
+            print(f"Veritabanı kayıt hatası: {e}")
+
+def start_worker():
+    print("Nebula İşçisi çalışıyor... Kuyruk dinleniyor.")
+    while True:
+        response = sqs.receive_message(
+            QueueUrl=QUEUE_URL,
+            MaxNumberOfMessages=1,
+            WaitTimeSeconds=20 
+        )
+        messages = response.get('Messages', [])
+        if not messages:
+            continue
+            
+        for msg in messages:
+            try:
+                process_message(msg)
+                sqs.delete_message(QueueUrl=QUEUE_URL, ReceiptHandle=msg['ReceiptHandle'])
+                print("Mesaj kuyruktan silindi.")
+            except Exception as e:
+                print(f"İşleme hatası: {e}")
+
+if __name__ == "__main__":
+    start_worker()
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `D`
+- `Dockerfile`
 
