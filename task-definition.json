@@ -86,6 +86,5 @@
     "memory": "1024",
     "registeredAt": "2026-04-28T14:28:33.267Z",
     "registeredBy": "arn:aws:iam::290061316029:user/eren-admin",
-    "enableFaultInjection": false,
     "tags": []
 }

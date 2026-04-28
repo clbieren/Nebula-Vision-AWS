@@ -3,7 +3,7 @@
 ## 📊 Project Information
 
 - **Project Name**: `Nebula-UI`
-- **Generated On**: 2026-04-28 16:23:40 (Europe/Istanbul / GMT+03:00)
+- **Generated On**: 2026-04-28 16:30:48 (Europe/Istanbul / GMT+03:00)
 - **Total Files Processed**: 8
 - **Export Tool**: Easy Whole Project to Single Text File for LLMs v1.1.0
 - **Tool Author**: Jota / José Guilherme Pandolfi
@@ -26,7 +26,7 @@
 ├── 📄 index.html (1.55 KB)
 ├── 📄 README.md (5.86 KB)
 ├── 📄 style.css (2.06 KB)
-├── 📄 task-definition.json (2.83 KB)
+├── 📄 task-definition.json (2.79 KB)
 └── 📄 worker.py (2.53 KB)
 ```
 
@@ -51,7 +51,7 @@
 | Total Directories | 0 |
 | Text Files | 6 |
 | Binary Files | 2 |
-| Total Size | 19.33 KB |
+| Total Size | 19.3 KB |
 
 ### 📄 File Types Distribution
 
@@ -636,15 +636,15 @@ header {
 ### <a id="📄-task-definition-json"></a>📄 `task-definition.json`
 
 **File Info:**
-- **Size**: 2.83 KB
+- **Size**: 2.79 KB
 - **Extension**: `.json`
 - **Language**: `json`
 - **Location**: `task-definition.json`
 - **Relative Path**: `root`
 - **Created**: 2026-04-28 16:10:36 (Europe/Istanbul / GMT+03:00)
-- **Modified**: 2026-04-28 16:14:09 (Europe/Istanbul / GMT+03:00)
-- **MD5**: `8abdb08ed8befad8e62852179be0ed88`
-- **SHA256**: `845b283c0a390ac695287312bd789bbe2aabd93907f58bdc1b64c822c7ca9236`
+- **Modified**: 2026-04-28 16:30:47 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `e89ee8d7fd9993274181f5fecd895331`
+- **SHA256**: `6cdacb4a6202f17b491736f27271da98dd5a2560680b3409944e6b74da3e6473`
 - **Encoding**: ASCII
 
 **File code content:**
@@ -738,7 +738,6 @@ header {
     "memory": "1024",
     "registeredAt": "2026-04-28T14:28:33.267Z",
     "registeredBy": "arn:aws:iam::290061316029:user/eren-admin",
-    "enableFaultInjection": false,
     "tags": []
 }
 ```
@@ -754,7 +753,7 @@ header {
 - **Location**: `worker.py`
 - **Relative Path**: `root`
 - **Created**: 2026-04-28 16:20:03 (Europe/Istanbul / GMT+03:00)
-- **Modified**: 2026-04-28 16:20:08 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-28 16:30:48 (Europe/Istanbul / GMT+03:00)
 - **MD5**: `a982dfab6f8bd524e52eb1f7e88ed6a3`
 - **SHA256**: `f60139307b6d1ac941b1fe6003c21e87d4bef740ee23762033bda71ef49209cc`
 - **Encoding**: UTF-8
