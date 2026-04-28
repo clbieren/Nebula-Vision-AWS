@@ -117,7 +117,7 @@ export DYNAMODB_TABLE=your-table
 ------------------------------------------------------------
 
 # 1. Clone project
-git clone https://github.com/your-username/nebula-vision.git
+git clone https://github.com/clbieren/Nebula-Vision-AWS.git
 cd nebula-vision
 
 
@@ -142,7 +142,7 @@ Create:
 - S3 Bucket
 - SQS Queue
 - DynamoDB Table
-  Partition Key: image_id
+  Partition Key: ImageName
 - ECS Cluster (Fargate)
 - ECR Repository
 
@@ -181,14 +181,8 @@ const API_URL = "https://your-api-id.execute-api.region.amazonaws.com"
 📊 SAMPLE RESPONSE
 ------------------------------------------------------------
 
-{
-  "image_id": "12345",
-  "labels": [
-    { "name": "Car", "confidence": 98.2 },
-    { "name": "Road", "confidence": 95.1 }
-  ],
-  "status": "completed"
-}
+<img width="1609" height="1453" alt="Ekran görüntüsü 2026-04-28 184427" src="https://github.com/user-attachments/assets/62857990-f6a5-46da-8224-91442c717728" />
+
 
 ------------------------------------------------------------
 🔐 IAM (MINIMUM)
