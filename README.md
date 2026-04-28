@@ -181,7 +181,7 @@ const API_URL = "https://your-api-id.execute-api.region.amazonaws.com"
 📊 SAMPLE RESPONSE
 ------------------------------------------------------------
 
-<img width="1609" height="1453" alt="Ekran görüntüsü 2026-04-28 184427" src="https://github.com/user-attachments/assets/62857990-f6a5-46da-8224-91442c717728" />
+<img width="2443" height="1431" alt="Ekran görüntüsü 2026-04-28 190412" src="https://github.com/user-attachments/assets/6907225f-a6a0-4752-8859-73fa9ebd025a" />
 
 
 ------------------------------------------------------------
